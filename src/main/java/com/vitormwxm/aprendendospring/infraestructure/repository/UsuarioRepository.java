@@ -1,0 +1,13 @@
+package com.vitormwxm.aprendendospring.infraestructure.repository;
+
+
+import com.vitormwxm.aprendendospring.infraestructure.entities.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+// todas as entidades tem que ter um repository
+// Sempre uma interface
+@Repository
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+
+}
