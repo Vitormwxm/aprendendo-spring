@@ -1,9 +1,6 @@
-package com.vitormwxm.aprendendospring;
+package com.vitormwxm.aprendendospring.infraestructure.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
