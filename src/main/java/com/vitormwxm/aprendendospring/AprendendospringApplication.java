@@ -10,7 +10,7 @@ public class AprendendospringApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AprendendospringApplication.class, args);
 
-		Usuario usuario = new Usuario("Vitor", "Vitormwxm@gmail.com", "12345");
+		// Usuario usuario = new Usuario("Vitor", "Vitormwxm@gmail.com", "12345");
 
 		System.out.println(usuario.getEmail());
 	}
