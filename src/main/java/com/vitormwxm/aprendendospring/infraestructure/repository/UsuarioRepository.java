@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 // Sempre uma interface
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
-
+    boolean existsByEmail(String email); // verifica se o email do usuário existe no banco de dados
 }
