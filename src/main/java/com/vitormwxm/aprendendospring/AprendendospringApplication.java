@@ -12,6 +12,6 @@ public class AprendendospringApplication {
 
 		// Usuario usuario = new Usuario("Vitor", "Vitormwxm@gmail.com", "12345");
 
-		System.out.println(usuario.getEmail());
+		// System.out.println(usuario.getEmail());
 	}
 }
